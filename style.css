@@ -204,6 +204,10 @@ span {
 		margin-left: 2px;
 
 	}
+	.heading{
+		padding-right: 1px;
+		margin-left: 0px;
+	}
 	.timeline-items::before{
 		left: 7px;
 	}
@@ -302,12 +306,23 @@ span {
 	}
 }
 
+@media (min-width : 300px) and (max-width: 720px) {
+	.column {
+	  width: 80%;
+	  display: block;
+	  margin-bottom: 20px;
+	}
+	
+}
+
+
 @media (min-width : 720px) and (max-width: 1130px) {
 	.column {
 	  width: 40%;
 	  display: block;
 	  margin-bottom: 20px;
 	}
+	
 }
 
 @media(max-width: 620px){
@@ -320,8 +335,8 @@ span {
 
 @media(max-width: 478px){
 	.timeline-image{
-		bottom: 260px;
-		height: 268px;
+		bottom: 280px;
+		height: 284px;
 		
 	}
 }
