@@ -197,12 +197,20 @@ span {
 	font-weight: 300;
 	line-height: 22px;
 }
+.j-para{
+	padding-left: 200px;
+	padding-right: 200px;
+}
 
 /* responsive */
 @media(max-width: 767px){
 	.bg-head{
 		margin-left: 2px;
 
+	}
+	.j-para{
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	.heading{
 		padding-right: 1px;
@@ -328,20 +336,15 @@ span {
 @media(max-width: 620px){
 	.timeline-image{
 		bottom: 240px;
-		height: 250px;
+		height: 280px;
 		
 	}
 }
 
 @media(max-width: 478px){
 	.timeline-image{
-		bottom: 280px;
-		height: 284px;
+		bottom: 276px;
+		height: 294px;
 		
 	}
 }
-
-
-
-
-
